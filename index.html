@@ -17,12 +17,34 @@
             padding: 20px;
         }
 
+
+
+
+
+
+
+
+
+
+
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             background-color: #787b66;
             text-align: center;
         }
+
+        .container {
+            height: 380px;
+            width: 1500px;
+            background-color: #384406;
+            padding: 5px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+        }
+
 
         .card {
             background: #fff8e1;
@@ -67,71 +89,80 @@
 </head>
 
 <body>
+
+    <div>
+
+<div>
+    <h1>Mango World</h1>
+
+</div>
+
     <header>
         <h1>Welcome to Mango World 🥭</h1>
         <p>Explore different varieties of mangoes</p>
     </header>
 
-    <table>
-        <tr>
 
-            <td>
-                <div class="card">
-                    <img src="./img/kesar-mango.webp">
-                    <h3>Kesar</h3>
-                    <p>Famous for its bright orange pulp and sweet flavor.</p>
-                    <center></center>
-                    <button class="know">Know More</button>
-                </div>
-            </td>
+    <div class="container">
+
+
+        <div class="card">
+            <img src="./kesar-mango -img/kesar-mango.webp">
+            <h3>Kesar</h3>
+            <p>Famous for its bright orange pulp and sweet flavor.</p>
+            <center>
+                <a href="./mangoes/kesar.html"><button class="know">Know More</button></a>
+            </center>
+        </div>
+
+
+
+
+        <div class="card">
+            <img src="./img/hapus-mango.jpg">
+            <h3>Hapus </h3>
+            <p>Premium mango from Maharashtra, known for its rich taste, smooth texture.</p>
+            <center>
+                <button class="know">Know More</button>
             </center>
 
-            <td>
-                <div class="card">
-                    <img src="./img/hapus-mango.jpg">
-                    <h3>Hapus </h3>
-                    <p>Premium mango from Maharashtra, known for its rich taste, smooth texture.</p>
-                    <center>
-                        <button class="know">Know More</button>
-                    </center>
-            </td>
-            </div>
-
-            <td>
-                <div class="card">
-                    <img src="./img/totapuri-plant.jpg">
-                    <h3>Totapuri </h3>
-                    <p>Totapuri mangoes are tangy-sweet flavor, they are highly valued in industrial processing .</p>
-                    <center>
-                        <button class="know">Know More</button>
-                    </center>
-            </td>
-            </div>
+        </div>
 
 
-            <td>
-                <div class="card">
-                    <img src="./img/dasheri-mango.jpg">
-                    <h3> Dasheri </h3>
-                    <p>Dasheri mangoes yellow-green skin and aromatic exceptionally sweet.</p>
-                    <center>
-                        <button class="know">Know More</button>
-                    </center>
-            </td>
-            </div>
+        <div class="card">
+            <img src="./img/totapuri-plant.jpg">
+            <h3>Totapuri </h3>
+            <p>Totapuri mangoes are tangy-sweet flavor, they are highly valued in industrial processing .</p>
+            <center>
+                <button class="know">Know More</button>
+            </center>
 
-             <td>
-                <div class="card">
-                    <img src="./img/neelam-mangos.jpg">
-                    <h3> Neelam </h3>
-                    <p>Neelam is  orange skin, small size, and sweet aroma mango.</p>
-                    <center>
-                        <button class="know">Know More</button>
-                    </center>
-            </td>
-            </div>
-        </tr>
-    </table>
+        </div>
+
+
+
+        <div class="card">
+            <img src="./img/dasheri-mango.jpg">
+            <h3> Dasheri </h3>
+            <p>Dasheri mangoes yellow-green skin and aromatic exceptionally sweet.</p>
+            <center>
+                <button class="know">Know More</button>
+            </center>
+
+        </div>
+
+
+        <div class="card">
+            <img src="./img/neelam-mangos.jpg">
+            <h3> Neelam </h3>
+            <p>Neelam is orange skin, small size, and sweet aroma mango.</p>
+            <center>
+                <button class="know">Know More</button>
+            </center>
+
+        </div>
+
+    </div>
 
 </body>
 
