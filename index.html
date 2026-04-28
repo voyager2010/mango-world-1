@@ -5,14 +5,14 @@
     <title>Simple Webpage !</title>
     <link rel="stylesheet" href="./style/style.css" />
     <style>
-        body{
+        body {
             width: 100vw;
             overflow-x: hidden;
             padding: 0;
             margin: 0;
-                        text-align: center;
+            text-align: center;
         }
- 
+
 
         header {
             background-color: #032304;
@@ -72,6 +72,25 @@
             border: none;
             cursor: pointer;
         }
+
+        .footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: rgb(27, 26, 26);`
+            color: white;
+        }
+
+        .footer-menu {
+            background-color: #384406;
+            width: 220px;
+            margin: 15px;
+
+        }
+
+        .footer-logo-github {
+            background-color: white;
+        }
     </style>
 </head>
 
@@ -83,14 +102,14 @@
         </div>
 
         <div class="item2">
-            <a href="" class="menu-item">Home</a>
-            <a href="" class="menu-item">About</a>
-            <a href="" class="menu-item">Contact</a>
+            <a href="./index.html" class="menu-item">Home</a>
+            <a href="./about.html" class="menu-item">About</a>
+            <a href="./contact.html" class="menu-item">Contact</a>
         </div>
 
         <div class="item3">
             <a href="./login-sign up/login.html" class="menu-item">Login</a>
-            <a href="./" class="menu-item">Sign up</a>
+            <a href="./login-sign up/signup.html" class="menu-item">Sign up</a>
 
         </div>
     </div>
@@ -120,7 +139,7 @@
             <h3>Hapus </h3>
             <p>Premium mango from Maharashtra, known for its rich taste, smooth texture.</p>
             <center>
-                 <a href="./mangoes/hapus.html"><button class="know">Know More →</button></a>
+                <a href="./mangoes/hapus.html"><button class="know">Know More →</button></a>
             </center>
 
         </div>
@@ -150,9 +169,30 @@
             <h3> Neelam </h3>
             <p>Neelam is orange skin, small size, and sweet aroma mango.</p>
             <center>
-               <a href="./mangoes/neelam.html"><button class="know">Know More →</button></a>
+                <a href="./mangoes/neelam.html"><button class="know">Know More →</button></a>
             </center>
 
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-menu">
+            <h2> 🥭 Mango World</h2>
+            <p>This website is created to provide useful information about different types of mangoes, their benefits.
+            </p>
+
+            <div>
+                <a href=""><img src="./img/peerlist-logo.png" height="20px" /></a>
+                <a href=""><img src="./img/linkedin-logo.webp" height="20px" /></a>
+                <a href=""><img src="./img/github-logo.png" class="footer-logo-github" height="20px" /></a>
+            </div>
+
+
+
+            <div class="footer-menu">item 2</div>
+            <div class="footer-menu">item 3</div>
+            <div class="footer-menu">item 4</div>
         </div>
     </div>
 
