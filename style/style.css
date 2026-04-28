@@ -1,0 +1,50 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #787b66;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-main-logo {
+    height: 50px;
+}
+
+.website-name {
+    font-size: 30px;
+    color: white;
+    padding-left: 15px;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.item3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-item:hover {
+    color: orange;
+}
